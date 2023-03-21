@@ -1,11 +1,10 @@
-# @sensethenlove/toast
+# 🙏 @sensethenlove/toast
 
 
-### Description
+### 🕉 Description
 Show a success or info toast notification
 
-
-### Prerequisites
+### ☯️ Prerequisites
 Requires [@sensethenlove/global-style](https://github.com/sensethenlove/global-style) or add this css to your site
 ```css
 @keyframes fade-in-from-above {
@@ -30,31 +29,36 @@ Requires [@sensethenlove/global-style](https://github.com/sensethenlove/global-s
 }
 ```
 
-
-### Install
+### 💞 Install
 ```bash
 pnpm add @sensethenlove/global-style
 pnpm add @sensethenlove/toast
 ```
 
-### Add imports
+### 💛 Add imports
 ```ts
 import '@sensethenlove/global-style/lib/index.css'
 import '@sensethenlove/toast/lib/index.css'
 import showToast from '@sensethenlove/toast'
 ```
 
-### Add wrapper to DOM
+### 🧡 Add wrapper to DOM
 ```html
 <div id="toast-wrapper"></div>
 ```
 
-### Show info toast
+### 💙 Show info toast
 ```ts
 showToast({ type: 'info', items: [ 'Foo' ] })
 ```
 
-### Show success toast
+### 💚 Show success toast
 ```ts
 showToast({ type: 'success', items: [ 'Foo', 'Bar' ] })
 ```
+
+### 💖 Our helpful packages!
+* [@sensethenlove/env-write](https://www.npmjs.com/package/@sensethenlove/env-write)
+* [@sensethenlove/global-style](https://www.npmjs.com/package/@sensethenlove/global-style)
+* [@sensethenlove/loop-backwards](https://www.npmjs.com/package/@sensethenlove/loop-backwards)
+* [@sensethenlove/svelte-turnstile](https://www.npmjs.com/package/@sensethenlove/svelte-turnstile)
