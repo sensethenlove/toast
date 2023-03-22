@@ -68,7 +68,7 @@ showToast({ type: 'info', items: [ 'Foo' ] })
 
 ### 💚 Example: Show success toast
 ```ts
-showToast({ type: 'success', items: [ 'Foo', 'Bar' ] })
+showToast({ type: 'success', items: [ 'Foo', '<a href="/">Bar</a>' ] })
 ```
 
 ### 💖 Our helpful packages!
