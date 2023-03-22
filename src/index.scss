@@ -1,4 +1,4 @@
-#toast-wrapper { // inspiration: https://flowbite-svelte.com/components/toast
+#stl--toast-wrapper { // inspiration: https://flowbite-svelte.com/components/toast
   position: fixed;
   top: 1rem;
   width: 45rem;
@@ -9,7 +9,7 @@
   align-items: center;
   overflow: visible;
 
-  .toast {
+  .stl--toast {
     margin-bottom: 1rem;
     padding: 1.2rem;
     border-radius: 1rem;

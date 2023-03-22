@@ -1,4 +1,4 @@
-#toast-wrapper {
+#stl--toast-wrapper {
   position: fixed;
   top: 1rem;
   width: 45rem;
@@ -9,7 +9,7 @@
   align-items: center;
   overflow: visible;
 }
-#toast-wrapper .toast {
+#stl--toast-wrapper .stl--toast {
   margin-bottom: 1rem;
   padding: 1.2rem;
   border-radius: 1rem;
@@ -23,42 +23,42 @@
   transition: all 0.9s;
   max-width: calc(100vw - 3rem);
 }
-#toast-wrapper .toast.hide {
+#stl--toast-wrapper .stl--toast.hide {
   animation-name: fade-out-and-slide-up;
 }
-#toast-wrapper .toast.success .icon-wrapper {
+#stl--toast-wrapper .stl--toast.success .icon-wrapper {
   border: 1px solid rgb(14, 159, 110);
   background-color: rgb(188, 240, 218);
 }
-#toast-wrapper .toast.success .icon-wrapper .icon {
+#stl--toast-wrapper .stl--toast.success .icon-wrapper .icon {
   color: rgb(3, 84, 63);
 }
-#toast-wrapper .toast.info .icon-wrapper {
+#stl--toast-wrapper .stl--toast.info .icon-wrapper {
   border: 1px solid rgb(63, 131, 248);
   background-color: rgb(195, 221, 253);
 }
-#toast-wrapper .toast.info .icon-wrapper .icon path {
+#stl--toast-wrapper .stl--toast.info .icon-wrapper .icon path {
   fill: rgb(30, 66, 159);
 }
-#toast-wrapper .toast .icon-wrapper {
+#stl--toast-wrapper .stl--toast .icon-wrapper {
   padding: 0.3rem;
   margin-right: 1.2rem;
   border-radius: 0.9rem;
 }
-#toast-wrapper .toast .icon-wrapper .icon {
+#stl--toast-wrapper .stl--toast .icon-wrapper .icon {
   width: 2.7rem;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-#toast-wrapper .toast ul {
+#stl--toast-wrapper .stl--toast ul {
   padding: 0;
   margin: 0 0 0 1.8rem;
 }
-#toast-wrapper .toast ul li {
+#stl--toast-wrapper .stl--toast ul li {
   margin: 0.3rem 0;
 }
-#toast-wrapper .toast .close {
+#stl--toast-wrapper .stl--toast .close {
   border: 1px solid transparent;
   background-color: transparent;
   border-radius: 1.2rem;
@@ -70,11 +70,11 @@
   justify-content: center;
   padding: 0.5rem;
 }
-#toast-wrapper .toast .close:hover {
+#stl--toast-wrapper .stl--toast .close:hover {
   cursor: pointer;
   border-color: rgb(229, 231, 235);
   background-color: rgb(75, 85, 99);
 }
-#toast-wrapper .toast .close svg {
+#stl--toast-wrapper .stl--toast .close svg {
   width: 2rem;
 }

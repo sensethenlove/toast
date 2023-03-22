@@ -2,7 +2,7 @@ let wrapper: HTMLElement | null
 
 
 export default ({ type, items }: ShowToastProps) => {
-  if (!wrapper) wrapper = document.getElementById('toast-wrapper')
+  if (!wrapper) wrapper = document.getElementById('stl--toast-wrapper')
 
   function removeToast(toast: HTMLElement) {
     if (toast && wrapper) {
@@ -38,7 +38,7 @@ export default ({ type, items }: ShowToastProps) => {
     }
 
     wrapper.insertAdjacentHTML('beforeend', `
-      <div id="${ id }" class="toast ${ type }">
+      <div id="${ id }" class="stl--toast ${ type }">
         <div class="icon-wrapper">${ icon }</div>
         ${ inner }
         <button class="close">
