@@ -1,15 +1,15 @@
 {
   "name": "@sensethenlove/toast",
-  "version": "1.0.3",
+  "version": "1.0.4",
+  "author": "Sense Then Love",
   "license": "MIT",
   "main": "./lib/index.js",
-  "author": "Sense Then Love",
   "types": "./lib/index.d.ts",
   "homepage": "https://github.com/sensethenlove/toast#readme",
-  "description": "Show a success or info toast notification",
+  "description": "Show a closeable success and/or info toast notification",
   "scripts": {
-    "npmDeploy": "npm publish --access public",
-    "build": "pnpm tsc && pnpm node ./src/scss.js"
+    "build": "pnpm tsc && pnpm node ./src/scss.js",
+    "live": "pnpm build && npm publish --access public"
   },
   "keywords": [
     "alert",
