@@ -73,6 +73,7 @@ showToast({ type: 'success', items: [ 'Foo', '<a href="/">Bar</a>' ] })
 
 ### 💖 Our helpful packages!
 * [@sensethenlove/jwt](https://www.npmjs.com/package/@sensethenlove/jwt)
+* [@sensethenlove/slug](https://www.npmjs.com/package/@sensethenlove/slug)
 * [@sensethenlove/env-write](https://www.npmjs.com/package/@sensethenlove/env-write)
 * [@sensethenlove/global-style](https://www.npmjs.com/package/@sensethenlove/global-style)
 * [@sensethenlove/svelte-modal](https://www.npmjs.com/package/@sensethenlove/svelte-modal)
